@@ -25,19 +25,7 @@ public class Skybox {
 		
 		 gl.glPushMatrix();
 		 
-		    // Reset and transform the matrix.
-		    //gl.glLoadIdentity();
-		    //glu.gluLookAt(
-		      //  0,0,0,
-		       // centerx, centery, centerz,
-		       // 0,1,0);
-		 
-		    // Enable/Disable features
-		    //gl.glPushAttrib(gl.GL_ENABLE_BIT);
-		    //gl.glEnable(gl.GL_TEXTURE_2D);
-		    //gl.glDisable(gl.GL_DEPTH_TEST);
 		    gl.glDisable(gl.GL_LIGHTING);
-		    //gl.glDisable(gl.GL_BLEND);
 		    
 		 // Render the top quad
 		    texture = textures[5];
