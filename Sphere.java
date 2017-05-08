@@ -75,8 +75,6 @@ public class Sphere {
 		
 		position.y += vel.y *dt;
 		
-		//position.y = (float) terrain.getYpositionAt((int)position.x+200,(int)position.z+200);
-		//System.out.println(""+position.x+"      "+position.y+"      "+position.z);
 		
 		if(!((position.z+(vel.z*dt))<=-height/2) && !((position.z+(vel.z*dt))>=height/2)){//edge detections
 			position.z += vel.z *dt;
@@ -87,13 +85,6 @@ public class Sphere {
 		orAng += angVel * dt;
 		
 	
-		//angAcc+=20;
-		
-	//	angVel *= Math.pow(0.8, dt);
-	//	orAng += angVel * dt;
-		//if (position.y < 0){
-	//		vel.y *= -rest;
-	//	}
 		
 	}
 	public float getAngAcc() {
